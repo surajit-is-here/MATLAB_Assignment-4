@@ -1,0 +1,10 @@
+img= imread('cameraman.tif');
+img1= imresize(img,0.5);
+%subplot(121);
+figure;
+imshow(img);
+title('Original Image');
+%subplot(122);
+figure;
+imshow(img1);
+title('scaled Image');
